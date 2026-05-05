@@ -29,7 +29,8 @@ body {
 
 /* Navegação */
 header {
-    background-color: #ffffff; /* Branco sólido e opaco */
+    background-color: var(--pink);
+	color: white;
     padding: 20px 0;
     position: fixed;
     width: 100%;
