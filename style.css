@@ -30,7 +30,7 @@ body {
 /* Navegação */
 header {
     background-color: var(--pink);
-	color: white;
+	color: black;
     padding: 20px 0;
     position: fixed;
     width: 100%;
