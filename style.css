@@ -103,6 +103,8 @@ header {
     padding: 100px 10%;
 }
 
+
+
 .about-content {
     display: grid;
     grid-template-columns: 1fr 1fr; /* Divide em duas colunas iguais */
@@ -125,6 +127,21 @@ header {
     margin-bottom: 20px;
     color: var(--pink);
 }
+
+.abnt-text {
+        font-family: "Arial" or "Times New Roman", sans-serif; /* Fontes padrão ABNT */
+        font-size: 12pt;             /* Tamanho 12 */
+        text-align: justify;         /* Texto justificado */
+        line-height: 1.5;            /* Espaçamento entre linhas de 1,5 */
+        color: #000;                 /* Cor preta padrão */
+        max-width: 800px;            /* Limite para leitura confortável */
+        margin: 0 auto;
+    }
+
+    .abnt-text p {
+        text-indent: 1.25cm;         /* Recuo obrigatório na primeira linha do parágrafo */
+        margin-bottom: 0;            /* A ABNT não usa espaço entre parágrafos, apenas o recuo */
+    }
 
 /* Galeria / Carrossel */
 .banner-wrapper {
