@@ -75,33 +75,29 @@ header {
 
 /* Seção Sobre (Imagem ao lado do texto) */
 .about-section {
-    background-color: var(--white);
+    background-color: #ffffff; /* Fundo branco explícito */
+    width: 100%;
     padding: 100px 10%;
 }
 
 .about-content {
     display: grid;
-    grid-template-columns: 1fr 1fr; /* Divide em duas colunas iguais */
+    /* Define duas colunas: uma para imagem, outra para texto */
+    grid-template-columns: 1fr 1fr; 
     gap: 50px;
     align-items: center;
     max-width: 1200px;
     margin: 0 auto;
 }
 
+/* Garante que a imagem não "escape" do container */
 .about-image img {
-    width: 100%;
-    max-height: 500px;
-    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    display: block;
     border-radius: 15px;
-    box-shadow: 15px 15px 0px var(--pink); /* Detalhe estético */
+    box-shadow: 15px 15px 0px var(--pink);
 }
-
-.about-text h2 {
-    font-size: 2.5rem;
-    margin-bottom: 20px;
-    color: var(--pink);
-}
-
 /* Galeria / Carrossel */
 .banner-wrapper {
     width: 100%;
