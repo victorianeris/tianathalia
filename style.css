@@ -1,4 +1,4 @@
-/* Configurações Globais */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,7 +11,7 @@
     --light: #f4f4f4;
     --dark: #000000;
     --white: #ffffff;
-    --accent: #D4AF37; /* Cor dourada/acento */
+    --accent: #D4AF37; 
     --transition: all 0.2s ease;
 }
 
@@ -20,21 +20,21 @@ html {
 }
 
 body {
-    background-color: var(--white); /* Fundo branco conforme solicitado */
+    background-color: var(--white);
     color: var(--dark);
     line-height: 1.6;
 }
 
 .hero {
     position: relative;
-    height: 100vh; /* Altura total da tela */
+    height: 100vh; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
-    color: white; /* Cor do texto para contrastar com a imagem */
+    color: white; 
     
-    /* Substitua 'sua-imagem.jpg' pelo caminho da sua foto */
+
     background: url('apontando.png') no-repeat center center/cover;
 }
 .hero-content h1 {
@@ -99,7 +99,7 @@ header {
     transition: var(--transition);
 }
 
-/* Seção Sobre (Imagem ao lado do texto) */
+
 .about-section {
     background-color: var(--white);
     padding: 100px 10%;
@@ -181,7 +181,7 @@ header {
         margin-bottom: 0; 
 }
 
-/* Galeria / Carrossel */
+
 .banner-wrapper {
     width: 100%;
     overflow: hidden;
@@ -213,7 +213,7 @@ header {
     100% { transform: translateX(-1440px); }
 }
 
-/* Contato & WhatsApp */
+
 .contact-section {
     background-color: var(--white);
     padding: 80px 10%;
@@ -231,7 +231,7 @@ header {
     transition: var(--transition);
 }
 
-/* Rodapé */
+
 footer {
     padding: 40px;
     text-align: center;
@@ -239,7 +239,6 @@ footer {
     color: var(--white);
 }
 
-/* Responsividade */
 @media (max-width: 768px) {
     .about-content {
         grid-template-columns: 1fr; /* No celular, a imagem fica em cima do texto */
