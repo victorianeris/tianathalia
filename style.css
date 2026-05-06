@@ -103,9 +103,8 @@ header {
 .about-section {
     background-color: var(--white);
     padding: 100px 10%;
+    transition: all 0.3s ease;
 }
-
-
 
 .about-content {
     display: grid;
