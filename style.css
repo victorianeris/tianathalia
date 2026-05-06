@@ -55,6 +55,17 @@ body {
     padding: 0 20px;
 }
 
+@media (max-width: 480px) {
+    .hero-content h1 {
+        font-size: 1.6rem; /* Tamanho mais amigável para celular */
+        padding: 0 10px;
+    }
+    
+    .hero-content h2 {
+        font-size: 1.1rem;
+    }
+}
+
 /* Navegação */
 header {
     background-color: var(--pink);
@@ -65,6 +76,10 @@ header {
     top: 0;
     z-index: 1000;
     box-shadow: 0px 4px 0px var(--accent);
+}
+
+.about-section, .contact-section {
+    scroll-margin-top: 80px; 
 }
 
 .navbar {
@@ -181,6 +196,41 @@ header {
         margin-bottom: 0; 
 }
 
+@media (max-width: 768px) {
+    header {
+        padding: 10px 0; /* Diminui a altura do cabeçalho no celular */
+    }
+
+    .navbar {
+        flex-direction: column; /* Logo em cima, links embaixo */
+        gap: 10px;
+    }
+
+    .nav-links {
+        padding: 0;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .nav-links li {
+        margin: 0 10px; /* Reduz o espaço entre os links */
+    }
+
+    .nav-links a {
+        font-size: 0.9rem; /* Diminui um pouco a letra do menu */
+    }
+}
+
+@media (max-width: 600px) {
+    .abnt-text {
+        text-align: left; /* Justificado em tela pequena às vezes cria espaços enormes entre palavras */
+        font-size: 11pt;
+    }
+
+    .abnt-text p {
+        text-indent: 0.8cm; /* Recuo menor para telas estreitas */
+    }
+}
 
 .banner-wrapper {
     width: 100%;
