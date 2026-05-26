@@ -1,4 +1,5 @@
 *Descrição Técnica do Projeto e Arquitetura de Tecnologias*
+
 Este projeto de Front-End foi desenvolvido com o objetivo de criar uma interface moderna, responsiva e semântica. O processo de desenvolvimento uniu práticas fundamentais de codificação web com a engenharia de prontos (prompt engineering) utilizando o Gemini IA como assistente de codificação.
 
 Abaixo estão detalhadas as tecnologias utilizadas, suas respectivas funções e como a Inteligência Artificial foi integrada ao fluxo de trabalho.
