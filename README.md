@@ -19,9 +19,7 @@ Práticas aplicadas: Uso de metodologias modernas de layout como Flexbox e/ou CS
 O Gemini IA atuou de forma colaborativa durante todo o ciclo de desenvolvimento do código através de técnicas de Pair Programming (Programação em Dupla). A IA foi utilizada para:
 
 Arquitetura e Estruturação de Layout: Auxílio na tomada de decisão sobre a melhor estrutura de tags HTML para layouts complexos.
-
 Resolução de Problemas (Debugging): Identificação rápida de falhas de estilização no CSS (como quebras de layout em telas menores) e correção de bugs de especificidade.
-
 Refatoração de Código: Otimização das regras de CSS para tornar o arquivo mais limpo, legível e com menor consumo de linhas de código.
 
 Sugestão de Boas Práticas: Implementação de padrões modernos de acessibilidade e design system (combinação de paleta de cores e tipografia).
